@@ -1,0 +1,42 @@
+/* header */
+
+.site_header .container {
+	display: flex;
+	align-items: center;
+	padding: 43px 20px;
+}
+
+.nav {
+	margin: 0;
+	margin-left: auto;
+	padding: 0;
+}
+
+.nav_list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav_item + .nav_item {
+	margin-left: 33px;
+}
+
+.nav_link {
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #83888f;
+	transition: color 0.3s ease;
+
+	&_:hover {
+		color: #333d4b;
+	}
+}
+
+.nav_link--active {
+	color: #333d4b;
+}

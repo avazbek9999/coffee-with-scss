@@ -1,0 +1,48 @@
+/* html {
+	height: 100%;
+} */
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	font-family: 'Barlow', Verdana, Tahoma, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+img {
+	object-fit: cover;
+	vertical-align: middle;
+}
+
+.site_main {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container--medium {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.container--small {
+	max-width: 1150px;
+	margin: 0 auto;
+	padding: 0 20px;
+}

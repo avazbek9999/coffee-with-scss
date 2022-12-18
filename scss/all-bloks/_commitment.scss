@@ -1,0 +1,31 @@
+/* section commitment */
+
+.commitment .container--small {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 220px;
+}
+
+.commitment_info {
+	width: 540px;
+}
+
+.commitment_headding {
+	margin: 0;
+	margin-bottom: 32px;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: #333d4b;
+}
+
+.commitment_desc {
+	font-size: 16px;
+	line-height: 26px;
+	color: #333d4b;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+}

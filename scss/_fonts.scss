@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'),
+		url('../fonts/barlow-v12-latin-regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2'),
+		url('../fonts/barlow-v12-latin-700.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../fonts/fraunces-v24-latin-regular.woff2') format('woff2'),
+		url('../fonts/fraunces-v24-latin-regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''), url('../fonts/fraunces-v24-latin-700.woff2') format('woff2'),
+		url('../fonts/fraunces-v24-latin-700.woff') format('woff');
+}
+@font-face {
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	src: local(''), url('../fonts/fraunces-v24-latin-900.woff2') format('woff2'),
+		url('../fonts/fraunces-v24-latin-900.woff') format('woff');
+}

@@ -1,0 +1,84 @@
+/* collection section */
+
+.collection {
+	margin-bottom: 200px;
+}
+
+.collection_list {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	&::before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		top: -126px;
+		left: 0;
+		width: 100%;
+		max-width: 1100px;
+		height: 196px;
+		background-image: url('../images/collection-bg.png');
+	}
+}
+
+.collection_item {
+	position: relative;
+	width: 255px;
+	text-align: center;
+
+	&::before {
+		display: block;
+		width: 255px;
+		height: 193px;
+		margin: 0 auto;
+		margin-bottom: 72px;
+		z-index: 10;
+		content: ' ';
+		background-image: url('../images/expresso.png');
+		background-repeat: no-repeat;
+	}
+
+	&:nth-child(4)::before {
+		margin-top: 20px;
+		margin-bottom: 52px;
+	}
+
+	&_headding {
+		margin: 0;
+		margin-bottom: 24px;
+		font-family: 'Fraunces';
+		font-weight: 900;
+		font-size: 24px;
+		line-height: 32px;
+		color: #333d4b;
+	}
+
+	&_desc {
+		margin: 0;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: #333d4b;
+	}
+}
+
+.collection_item + .collection_item {
+	margin-left: 30px;
+}
+
+.planalto::before {
+	background-image: url('../images/planalto.png');
+}
+
+.piccollo::before {
+	background-image: url('../images/picollo.png');
+}
+
+.danche::before {
+	background-image: url('../images/danche.png');
+}

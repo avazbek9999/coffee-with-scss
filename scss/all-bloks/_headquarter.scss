@@ -1,0 +1,77 @@
+/* headquarter section */
+
+.headquarter .container--small {
+	margin-bottom: 150px;
+}
+
+.headquarter_headding {
+	margin: 0;
+	margin-bottom: 72px;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #83888f;
+}
+
+.headquarter_list {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.headquarter_item {
+	width: 285px;
+
+	&::before {
+		display: block;
+		width: 41px;
+		height: 49px;
+		margin-bottom: 46px;
+		background-image: url('../images/uk.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		content: ' ';
+	}
+}
+
+.headquarter_item + .headquarter_item {
+	margin-left: 95px;
+}
+
+.canada::before {
+	width: 52px;
+	height: 50px;
+	background-image: url('../images/canada.png');
+}
+
+.australiya::before {
+	width: 49px;
+	height: 44px;
+	background-image: url('../images/australiya.png');
+}
+
+.headquarter_item_headding {
+	margin: 0;
+	margin-bottom: 24px;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 36px;
+	color: #333d4b;
+}
+
+.sub-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sub-item {
+	font-size: 16px;
+	line-height: 27px;
+	color: #333d4b;
+}

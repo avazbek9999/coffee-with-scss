@@ -1,0 +1,58 @@
+/* hero */
+
+.hero_section .container--medium {
+	margin-bottom: 260px;
+	padding: 116px 85px;
+	background-image: url('../images/cofe-hero-bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero_wrapper {
+	margin: 0;
+
+	&_headding {
+		width: 493px;
+		margin: 0;
+		margin-bottom: 32px;
+		font-family: 'Fraunces';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 61px;
+		line-height: 72px;
+		color: #fefcf7;
+	}
+
+	&_paragraf {
+		width: 445px;
+		margin: 0;
+		margin-bottom: 56px;
+		font-size: 16px;
+		line-height: 26px;
+		color: #fefcf7;
+		opacity: 0.8;
+	}
+}
+
+.section-link {
+	display: inline-block;
+	text-decoration: none;
+	width: 217px;
+	text-align: center;
+	padding: 15px 0;
+	font-family: 'Fraunces';
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	color: #fefcf7;
+	background: #0e8784;
+	border-radius: 6px;
+	transition: background-color 0.3s ease;
+
+	&:hover {
+		background-color: #66d2cf;
+	}
+}

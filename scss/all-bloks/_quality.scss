@@ -1,0 +1,46 @@
+/* quality section */
+
+.quality .container--medium {
+	position: relative;
+	margin-bottom: 150px;
+	padding: 88px 0 176px 85px;
+	background: #2c343e;
+	border-radius: 10px;
+}
+
+.quality_info {
+	width: 100%;
+	max-width: 540px;
+
+	&::after {
+		position: absolute;
+		right: 85px;
+		bottom: 88px;
+		width: 445px;
+		height: 474px;
+		background-image: url(../images/quality-coffe.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		content: ' ';
+	}
+}
+
+.quality_headding {
+	margin: 0;
+	margin-bottom: 32px;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: #fefcf7;
+}
+
+.quality_desc {
+	margin: 0;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fefcf7;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+}

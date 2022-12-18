@@ -1,0 +1,35 @@
+/* about_intro */
+
+.about_intro .container--medium {
+	margin-bottom: 120px;
+	padding: 137px 85px;
+	background-image: url('../images/about-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	border-radius: 10px;
+}
+
+.about_intro_wrapper {
+	width: 445px;
+	margin: 0;
+	padding: 0;
+}
+
+.about_intro_headding {
+	margin: 0;
+	margin-bottom: 24px;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: #fefcf7;
+}
+
+.about_intro_desc {
+	margin: 0;
+	font-size: 16px;
+	line-height: 26px;
+	color: #fefcf7;
+}
