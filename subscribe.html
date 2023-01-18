@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.min.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- site header -->
+
+		<header class="site_header">
+			<div class="container">
+				<a class="header_logo" href="./index.html">
+					<img
+						src="./images/coffe-logo.svg"
+						alt="this is logo image"
+						width="236"
+						height="26"
+					/>
+				</a>
+
+				<nav class="nav">
+					<ul class="nav_list">
+						<li class="nav_item">
+							<a class="nav_link" href="./index.html">HOME</a>
+						</li>
+						<li class="nav_item">
+							<a class="nav_link" href="./about.html"
+								>ABOUT USE</a
+							>
+						</li>
+						<li class="nav_item">
+							<a
+								class="nav_link nav_link--active"
+								href="./subscribe.html"
+								>CREATE YOUR PLAN</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- site main -->
+
+		<main class="site_main">
+			<!-- about intro -->
+			<section class="about_intro subscribe_intro">
+				<div class="container--medium">
+					<div class="about_intro_wrapper">
+						<h2
+							class="about_intro_headding subscribe_intro_headding"
+						>
+							Create a plan
+						</h2>
+						<p class="about_intro_desc">
+							Build a subscription plan that best fits your needs.
+							We offer an assortment of the best artisan coffees
+							from around the globe delivered fresh to your door.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- work section -->
+
+			<section class="work work--medium">
+				<div class="container--medium">
+					<div class="container--small">
+						<span class="work_span"></span>
+						<ul class="work_list">
+							<li class="work_item">
+								<strong class="work_item_strong">01</strong>
+								<h3
+									class="work_item_headding work_item_headding--white"
+								>
+									Pick your coffee
+								</h3>
+								<p class="work_item_desc work_item_desc--white">
+									Select from our evolving range of artisan
+									coffees. Our beans are ethically sourced and
+									we pay fair prices for them. There are new
+									coffees in all profiles every month for you
+									to try out.
+								</p>
+							</li>
+
+							<li class="work_item">
+								<strong class="work_item_strong">02</strong>
+								<h3
+									class="work_item_headding work_item_headding--white"
+								>
+									Choose the frequency
+								</h3>
+								<p class="work_item_desc work_item_desc--white">
+									Customize your order frequency, quantity,
+									even your roast style and grind type. Pause,
+									skip or cancel your subscription with no
+									commitment through our online portal.
+								</p>
+							</li>
+
+							<li class="work_item">
+								<strong class="work_item_strong">03</strong>
+								<h3
+									class="work_item_headding work_item_headding--white"
+								>
+									Receive and enjoy!
+								</h3>
+								<p class="work_item_desc work_item_desc--white">
+									We ship your package within 48 hours,
+									freshly roasted. Sit back and enjoy
+									award-winning world-class coffees curated to
+									provide a distinct tasting experience.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<!-- drink section -->
+
+			<section class="drink">
+				<div class="container--small">
+					<div class="drink_info">
+						<ul class="drink_info_list">
+							<li class="drink_info_item">
+								<a class="drink_info_item_link" href="#drink">
+									Preferences
+								</a>
+							</li>
+							<li class="drink_info_item bean">
+								<a class="drink_info_item_link" href="#type">
+									Bean Type
+								</a>
+							</li>
+							<li class="drink_info_item quantity">
+								<a
+									class="drink_info_item_link"
+									href="#how much"
+								>
+									Quantity
+								</a>
+							</li>
+							<li class="drink_info_item grind">
+								<a class="drink_info_item_link" href="#grind">
+									Grind Option
+								</a>
+							</li>
+							<li class="drink_info_item deliveries">
+								<a
+									class="drink_info_item_link"
+									href="#how offen"
+								>
+									Deliveries
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="drink_right">
+						<form
+							class="form"
+							action="https://echo.htmlacademy.ru/"
+							method="post"
+						>
+							<ul class="form_list">
+								<li class="form_item">
+									<div class="headding-info">
+										<h2
+											class="headding-info_headding"
+											id="drink"
+										>
+											How do you drink your coffee?
+										</h2>
+										<img
+											class="headding_info_img"
+											src="./images/icon.svg"
+											alt="down icon picture"
+											width="18"
+											height="12"
+										/>
+									</div>
+
+									<ul class="form_sublist">
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="drink_type"
+													value="capsule"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Capsule</span
+													>
+													<span
+														class="input_controller_desc"
+														>Compatible with
+														Nespresso systems and
+														similar brewers</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="drink_type"
+													value="filter"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Filter</span
+													>
+													<span
+														class="input_controller_desc"
+														>For pour over or drip
+														methods like Aeropress,
+														Chemex, and V60</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="drink_type"
+													value="espresso"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Espresso</span
+													>
+													<span
+														class="input_controller_desc"
+														>Dense and finely ground
+														beans for an intense,
+														flavorful
+														experience</span
+													>
+												</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+
+								<li class="form_item">
+									<div class="headding-info">
+										<h2
+											class="headding-info_headding"
+											id="type"
+										>
+											What type of coffee?
+										</h2>
+										<img
+											class="headding_info_img"
+											src="./images/icon.svg"
+											alt="down icon picture"
+											width="18"
+											height="12"
+										/>
+									</div>
+
+									<ul class="form_sublist">
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="coffe_name"
+													value="Single Origin"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Single Origin</span
+													>
+													<span
+														class="input_controller_desc"
+														>Distinct, high quality
+														coffee from a specific
+														family-owned farm</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="coffe_name"
+													value="Decaf"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Decaf</span
+													>
+													<span
+														class="input_controller_desc"
+														>Just like regular
+														coffee, except the
+														caffeine has been
+														removed</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="coffe_name"
+													value="Blended"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Blended</span
+													>
+													<span
+														class="input_controller_desc"
+														>Combination of two or
+														three dark roasted beans
+														of organic coffees</span
+													>
+												</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+
+								<li class="form_item">
+									<div class="headding-info">
+										<h2
+											class="headding-info_headding"
+											id="how much"
+										>
+											How much would you like?
+										</h2>
+										<img
+											class="headding_info_img"
+											src="./images/icon.svg"
+											alt="down icon picture"
+											width="18"
+											height="12"
+										/>
+									</div>
+
+									<ul class="form_sublist">
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="how_much"
+													value="250g"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>250g</span
+													>
+													<span
+														class="input_controller_desc"
+														>Perfect for the solo
+														drinker. Yields about 12
+														delicious cups.</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="how_much"
+													value="500g"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>500g</span
+													>
+													<span
+														class="input_controller_desc"
+														>Perfect option for a
+														couple. Yields about 40
+														delectable cups.</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="how_much"
+													value="1000g"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>1000g</span
+													>
+													<span
+														class="input_controller_desc"
+														>Perfect for offices and
+														events. Yields about 90
+														delightful cups.</span
+													>
+												</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+
+								<li class="form_item">
+									<div class="headding-info">
+										<h2
+											class="headding-info_headding"
+											id="grind"
+										>
+											Want us to grind them?
+										</h2>
+										<img
+											class="headding_info_img"
+											src="./images/icon.svg"
+											alt="down icon picture"
+											width="18"
+											height="12"
+										/>
+									</div>
+
+									<ul class="form_sublist">
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="metode_name"
+													value="Wholebean"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Wholebean</span
+													>
+													<span
+														class="input_controller_desc"
+														>Best choice if you
+														cherish the full sensory
+														experience</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="metode_name"
+													value="filter"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Filter</span
+													>
+													<span
+														class="input_controller_desc"
+														>For pour over or drip
+														methods like Aeropress,
+														Chemex, and V60</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="metode_name"
+													value="Cafetiére"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Cafetiére</span
+													>
+													<span
+														class="input_controller_desc"
+														>Course ground beans
+														specially suited for
+														french press
+														coffee</span
+													>
+												</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+
+								<li class="form_item">
+									<div class="headding-info">
+										<h2
+											class="headding-info_headding"
+											id="how offen"
+										>
+											How often should we deliver?
+										</h2>
+										<img
+											class="headding_info_img"
+											src="./images/icon.svg"
+											alt="down icon picture"
+											width="18"
+											height="12"
+										/>
+									</div>
+
+									<ul class="form_sublist">
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="deliver_time"
+													value="Every week"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Every week</span
+													>
+													<span
+														class="input_controller_desc"
+														>$7.20 per shipment.
+														Includes free
+														first-class
+														shipping.</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="deliver_time"
+													value="Every 2 weeks"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Every 2 weeks</span
+													>
+													<span
+														class="input_controller_desc"
+														>$9.60 per shipment.
+														Includes free priority
+														shipping.</span
+													>
+												</span>
+											</label>
+										</li>
+
+										<li class="form_subitem">
+											<label>
+												<input
+													class="form_subitem_input visually-hidden"
+													type="radio"
+													name="deliver_time"
+													value="Every month"
+												/>
+												<span class="input_controller">
+													<span
+														class="input_controller_headding"
+														>Every month</span
+													>
+													<span
+														class="input_controller_desc"
+														>$12.00 per shipment.
+														Includes free priority
+														shipping.</span
+													>
+												</span>
+											</label>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+							<blockquote class="form_quote">
+								<span class="block_span">Order Summary</span>
+								“I drink my coffee as
+								<span class="span_bold">Filter</span>, with a
+								<span class="span_bold">Decaf</span> type of
+								bean. <span class="span_bold">250g</span> ground
+								ala <span class="span_bold">Cafetiére</span>,
+								sent to me
+								<span class="span_bold">Every Week</span>.”
+							</blockquote>
+
+							<button class="form_btn" type="submit">
+								Create my plan!
+							</button>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!-- footer -->
+
+			<footer class="footer">
+				<div class="container--medium">
+					<div class="container--small">
+						<a class="header_logo" href="./index.html">
+							<img
+								src="./images/footer-logo.svg"
+								alt="this is logo image"
+								width="236"
+								height="26"
+							/>
+						</a>
+
+						<nav class="nav">
+							<ul class="nav_list">
+								<li class="nav_item">
+									<a class="nav_link" href="./index.html"
+										>HOME</a
+									>
+								</li>
+								<li class="nav_item">
+									<a class="nav_link" href="./about.html"
+										>ABOUT USE</a
+									>
+								</li>
+								<li class="nav_item">
+									<a
+										class="nav_link nav_link--active"
+										href="./subscribe.html"
+										>CREATE YOUR PLAN</a
+									>
+								</li>
+							</ul>
+						</nav>
+
+						<ul class="footer_list">
+							<li class="footer_item">
+								<a class="footer_link" href="#">
+									<img
+										class="footer_link_img"
+										src="./images/fesbook.svg"
+										alt="fesbook img"
+										width="24"
+										height="24"
+									/>
+								</a>
+							</li>
+
+							<li class="footer_item">
+								<a class="footer_link" href="#">
+									<img
+										class="footer_link_img"
+										src="./images/tvitter.svg"
+										alt="fesbook img"
+										width="24"
+										height="20"
+									/>
+								</a>
+							</li>
+
+							<li class="footer_item">
+								<a class="footer_link" href="#">
+									<img
+										class="footer_link_img"
+										src="./images/instagram.svg"
+										alt="fesbook img"
+										width="24"
+										height="24"
+									/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
+	</body>
+</html>

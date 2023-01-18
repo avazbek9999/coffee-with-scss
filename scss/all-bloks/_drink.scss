@@ -1,0 +1,177 @@
+.drink .container--small {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 150px;
+}
+
+.drink_info_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.drink_info_item {
+	width: 255px;
+	padding: 19px 0;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 32px;
+	color: #333d4b;
+	opacity: 0.4;
+	border-bottom: 1px solid #83888f;
+}
+
+.drink_info_item_link {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.drink_info_item:nth-child(5) {
+	opacity: 1;
+}
+
+.drink_info_item::before {
+	margin-right: 24px;
+	content: '01';
+}
+
+.bean::before {
+	content: '02';
+}
+
+.quantity::before {
+	content: '03';
+}
+
+.grind::before {
+	content: '04';
+}
+
+.deliveries::before {
+	content: '05';
+}
+
+.drink_info_item:nth-child(1)::before {
+	color: #0e8784;
+}
+.drink_info_item:nth-child(5)::before {
+	color: #83888f;
+}
+
+.drink_right {
+	width: 730px;
+}
+
+.form_list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.form_item {
+	margin-bottom: 88px;
+}
+
+.headding-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 56px;
+}
+
+.headding-info_headding {
+	margin: 0;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 48px;
+	color: #83888f;
+}
+
+.form_sublist {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.input_controller {
+	display: inline-block;
+	width: 228px;
+	height: 250px;
+	padding: 32px 28px;
+	background: #f4f1eb;
+	border-radius: 8px;
+
+	&_headding {
+		display: block;
+		margin-bottom: 24px;
+		font-family: 'Fraunces';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 24px;
+		line-height: 32px;
+		color: #333d4b;
+	}
+
+	&_desc {
+		display: block;
+		font-size: 16px;
+		line-height: 26px;
+		color: #333d4b;
+	}
+}
+
+.form_subitem_input:checked + .input_controller {
+	background-color: #0e8784;
+	color: #fefcf7;
+}
+
+.form_quote {
+	padding: 27px 64px;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 40px;
+	color: #ffffff;
+	background: #2c343e;
+	border-radius: 10px;
+}
+
+.block_span {
+	display: block;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-transform: uppercase;
+	// color: #ffffff;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+.span_bold {
+	color: #0e8784;
+}
+
+.form_btn {
+	display: block;
+	width: 217px;
+	margin-left: auto;
+	padding: 15px 0;
+	font-family: 'Fraunces';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	color: #fefcf7;
+	background: #66d2cf;
+	border-radius: 6px;
+}
